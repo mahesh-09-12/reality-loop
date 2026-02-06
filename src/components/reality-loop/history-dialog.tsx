@@ -31,7 +31,7 @@ export function HistoryDialog({
 }: HistoryDialogProps) {
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-[625px]">
+      <DialogContent className="w-full max-w-[95vw] rounded-lg sm:max-w-[625px]">
         <DialogHeader>
           <DialogTitle>Saved Belief Loops</DialogTitle>
           <DialogDescription>
